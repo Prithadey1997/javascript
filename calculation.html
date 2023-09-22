@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title></title>
+	<script>
+	function sum()
+	{
+	var a,b,s;
+	a=parseInt(document.frm1.t1.value);
+	b=parseInt(document.frm1.t2.value);
+	s=a+b;
+	alert("The Sum is"+s);
+	}
+	function sub()
+	{
+	var a,b,s1;
+	a=parseInt(document.frm1.t1.value);
+	b=parseInt(document.frm1.t2.value);
+	s1=a-b;
+	alert("The Sub is"+s1);
+	}
+	function mul()
+	{
+	var a,b,m;
+	a=parseInt(document.frm1.t1.value);
+	b=parseInt(document.frm1.t2.value);
+	m=a*b;
+	alert("The Mul is"+m);
+	}
+	function div()
+	{
+	var a,b,d;
+	a=parseInt(document.frm1.t1.value);
+	b=parseInt(document.frm1.t2.value);
+	d=a/b;
+	alert("The Div is"+d);
+	}
+	</script>
+	<body>
+ <form name="frm1">
+ Enter The First Number:-<input type="text" name="t1"><p>
+ Enter The Second Number:-<input type="text" name="t2"><p>
+ <input type="button" name="btn1 value="Jog" onClick="sum()">
+ <input type="button" name="btn1 value="Biyog" onClick="sub()">
+ <input type="button" name="btn1 value="Gun" onClick="mul()">
+ <input type="button" name="btn1 value="Vag" onClick="div()">
+ </body>
+ </html>

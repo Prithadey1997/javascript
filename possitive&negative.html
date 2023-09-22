@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Possitive and Negative</title>
+<script>
+function pos()
+{
+var a;
+a=parseInt(document.frm1.t1.value);
+if(a>0)
+{
+alert("The Number is Possitive");
+}
+else if(a<0)
+{
+alert("The Number is Negative");
+}
+else
+{
+alert("The Number is Zero");
+}
+}
+</script>
+<body>
+<form name="frm1">
+Enter the Number:-<input type="text" name="t1"><p>
+<input type="button" name="btn1" value="check" onClick="pos()">
+</body>
+</html>
